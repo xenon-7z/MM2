@@ -44662,11 +44662,11 @@ do
     root.BackgroundColor3 = Color3.fromRGB(20, 20, 27); root.BorderSizePixel = 0
     root.Active = true; root.Draggable = true; root.Parent = gui
     Instance.new("UICorner", root).CornerRadius = UDim.new(0, 10)
-    local stk = Instance.new("UIStroke", root); stk.Color = Color3.fromRGB(120, 90, 230); stk.Thickness = 1.5
+    local stk = Instance.new("UIStroke", root); stk.Color = Color3.fromRGB(255, 0, 255); stk.Thickness = 1.5
     local title = Instance.new("TextLabel")
     title.Size = UDim2.new(1, -16, 0, 24); title.Position = UDim2.fromOffset(12, 8); title.BackgroundTransparency = 1
-    title.Font = Enum.Font.GothamBold; title.TextSize = 15; title.TextColor3 = Color3.fromRGB(235, 228, 255)
-    title.TextXAlignment = Enum.TextXAlignment.Left; title.Text = "MM2 Spawner"; title.Parent = root
+    title.Font = Enum.Font.GothamBold; title.TextSize = 15; title.TextColor3 = Color3.fromRGB(255, 0, 255)
+    title.TextXAlignment = Enum.TextXAlignment.Left; title.Text = "Muuneyz Spawner✨"; title.Parent = root
     local box = Instance.new("TextBox")
     box.Size = UDim2.new(1, -24, 0, 30); box.Position = UDim2.fromOffset(12, 38)
     box.BackgroundColor3 = Color3.fromRGB(35, 35, 46); box.BorderSizePixel = 0
@@ -44676,7 +44676,7 @@ do
     Instance.new("UICorner", box).CornerRadius = UDim.new(0, 6)
     local spawnBtn = Instance.new("TextButton")
     spawnBtn.Size = UDim2.new(1, -24, 0, 30); spawnBtn.Position = UDim2.fromOffset(12, 74)
-    spawnBtn.BackgroundColor3 = Color3.fromRGB(95, 70, 200); spawnBtn.BorderSizePixel = 0
+    spawnBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 255); spawnBtn.BorderSizePixel = 0
     spawnBtn.Font = Enum.Font.GothamBold; spawnBtn.TextSize = 14; spawnBtn.TextColor3 = Color3.fromRGB(255,255,255)
     spawnBtn.Text = "Spawn"; spawnBtn.Parent = root
     Instance.new("UICorner", spawnBtn).CornerRadius = UDim.new(0, 6)
@@ -44696,7 +44696,7 @@ do
     panel.Size = UDim2.fromOffset(280, 320); panel.Position = UDim2.new(0, 0, 1, 6)
     panel.BackgroundColor3 = Color3.fromRGB(20,20,27); panel.BorderSizePixel = 0; panel.Visible = false; panel.Parent = root
     Instance.new("UICorner", panel).CornerRadius = UDim.new(0, 10)
-    local pstk = Instance.new("UIStroke", panel); pstk.Color = Color3.fromRGB(120,90,230); pstk.Thickness = 1.5
+    local pstk = Instance.new("UIStroke", panel); pstk.Color = Color3.fromRGB(255,0,255); pstk.Thickness = 1.5
     local search = Instance.new("TextBox")
     search.Size = UDim2.new(1, -24, 0, 28); search.Position = UDim2.fromOffset(12, 10)
     search.BackgroundColor3 = Color3.fromRGB(35,35,46); search.BorderSizePixel = 0
